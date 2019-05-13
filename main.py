@@ -4,7 +4,7 @@ import parser
 def main():
   # read source file
   source=""
-  with open('toy.lang','r') as file:
+  with open('source_file','r') as file:
     source = file.read()
   
   # Lexer
